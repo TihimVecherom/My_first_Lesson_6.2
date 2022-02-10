@@ -1,0 +1,115 @@
+/* Обнуление */
+@import "null.css";
+
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('../fonts/CircularStd-Book.woff2') format('woff2'),
+         url('../fonts/CircularStd-Book.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body{
+    box-sizing: border-box;
+    font-family: 'Circular Std' ;
+    font-style: regular;
+    font-weight: normal;
+}
+
+.wrapper{
+    overflow: hidden;
+}
+
+.block_header {
+}
+
+.first_paragraf {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 601px;
+    height: 82px;
+    font-size: 65px;
+    line-height: 82px;
+    color: #313131;
+}
+.block_Why {
+    margin: 0 auto;
+    margin-bottom: 224px;
+    width: 750px;
+    height: 50px;
+}
+.Why_paragraf {
+    text-align: center;
+    font-size: 20px;
+    line-height: 25px;
+    color: #5F5F5F;
+}
+.Picture_All_box {
+    position: relative;
+    width: 468px;
+    height: 675px;
+}
+.Picture_All {
+    display: block;
+    margin: 0 auto;
+    width: 401px;
+    height: 674px;
+}
+.Bakgraund_picture{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+}
+.block_Great {
+    position: relative;
+    width: 508px;
+    height: 380px;
+    margin-bottom: 67px;
+}
+
+.name_Great{
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 130%;
+    color: #313131;
+    opacity: 0.88;
+}
+
+.block_Great p{
+    margin-top: 64px;
+    margin-bottom: 176px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #5F5F5F;
+}
+
+.block_footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 160px;
+    height: 51px;
+}
+
+.block_footer h2{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 130%;
+    color: #313131;
+    opacity: 0.88;
+}
+
+.block_footer p{
+    width: 400;
+    margin-top: 5px;
+    font-size: 18px;
+    line-height: 23px;
+    color: #B8B8B8;
+}
