@@ -16,7 +16,6 @@
 body{
     box-sizing: border-box;
     font-family: 'Circular Std' ;
-    font-style: regular;
     font-weight: normal;
 }
 
@@ -107,7 +106,6 @@ body{
 }
 
 .block_footer p{
-    width: 400;
     margin-top: 5px;
     font-size: 18px;
     line-height: 23px;
